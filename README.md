@@ -38,4 +38,4 @@ Description: This project is a responsive movie app built with React. The app sh
 
 * Accessibility on Lighthouse: 99%
 
-# Live demo:
+# Live demo:https://project-js-movieapp.netlify.app/
