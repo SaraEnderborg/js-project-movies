@@ -20,8 +20,9 @@ const CardWrapper = styled.div`
   margin: ${(props) => props.theme.spacing.md};
   box-shadow: 4px 4px 12px rgba(100, 149, 237, 0.3);
   overflow: hidden;
-  width: 350px;
-  height: 500px;
+  width: 100%
+  max-width: 280px
+  aspect-ratio: 2 / 3;
   margin: 10px;
   position: relative;
 
@@ -30,8 +31,8 @@ const CardWrapper = styled.div`
   }
 
   @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
-    width: 70vw;
-    height: 85vw;
+    width: 60vw;
+    height: 75vw;
   }
 `;
 

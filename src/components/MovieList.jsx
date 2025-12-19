@@ -62,11 +62,11 @@ const GridContainer = styled.div`
   padding: 10px;
   justify-items: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: ${(props) => props.theme.breakpoints.wide}) {
     grid-template-columns: repeat(4, 1fr);
   }
 `;
